@@ -1,0 +1,45 @@
+/* Custom CSS - MOTO GARAGE */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: #333;
+}
+
+/* Background Hero dengan Lapisan Gelap untuk Menutupi Teks Bawaan Gambar */
+.hero-section {
+    background: linear-gradient(rgba(15, 15, 15, 0.82), rgba(15, 15, 15, 0.88)), 
+                url('bg-garasi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+}
+
+.tracking-wide {
+    letter-spacing: 3px;
+}
+
+/* Card Service Hover Animation */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Styling Form Contact */
+.form-field {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.form-field:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.max-w-700 {
+    max-width: 700px;
+}
